@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #13171A;
+}
+/* main-start */
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+svg{
+    color: white;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_manu svg{
+    margin: 3rem 0rem 0rem 7rem;
+    height: 3.5rem;
+    width: 2.5rem;
+} 
+.nav_logo img{
+    margin: 3.2rem 0rem 0rem 5rem;
+    height: inherit;
+    width: 8rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.nav_search svg{
+    margin: 3rem 6rem 0rem 0rem;
+    height: 3.5rem;
+    width: 2.5rem;
+}
+
+.main_left_content{
+    color: white;
+    margin: 8rem 0rem 0rem 8rem;
+}
+
+.back_text h1{
+    font-size: 5rem;
+    font-weight: 700;
+    opacity: 10%;
+}
+.font_text h3{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-top: -50px;
+    background: linear-gradient(
+            to right, white, black, white, black );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.font_text h1{
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 15px 0px 20px 0px;
+}
+.btn{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 15px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom_text{
+    max-width: 20%;
+    padding-top: 16rem;
+    line-height: 22px;
+    color: #83888c;
+}
+.color_white{
+    color: rgb(185, 181, 181);
+}
+
+.main_right_content{
+    position: absolute;
+    top: -2%;
+    left: 26.4%;
+    z-index: -1;
+}
+
+.number{
+    position: absolute;
+    top: 40%;
+    left: 85%;
+    color: white;
+}
+.number ul li{
+    list-style: none;
+    padding: 12px 0px;
+}
+
+.mark{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: #83888c;
+    border-radius: 50%;
+}
+
+.main_right_text{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 120px;
+    width: 100%;
+    background-color: white;
+}
+
+.info_one,
+.info_two,
+.info_three{
+    padding: 30px 130px;
+}
+
+.info{
+    font-size: 15px;
+    font-weight: 600;
+}
+.details{
+    font-size: 30px;
+    font-weight: 600;
+} 
+.info_four img{
+   padding-left: 110px;
+   height: 116px;
+}
+
+/* main-end */
