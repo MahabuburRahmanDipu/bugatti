@@ -2,4 +2,5 @@ BUGATTI MISTRAL.!
 
 learning frontend dev. :).  
 my code isn't perfect 😅!!! 
-!(https://user-images.githubusercontent.com/101990655/196000185-c83ee891-b2f2-4ab5-beb0-5538a460a6f4.png)
+
+![buggati ](https://user-images.githubusercontent.com/101990655/196001058-a3f1625c-19c5-4a51-8163-01b7fe9a7490.png)
